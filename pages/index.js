@@ -39,7 +39,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>DF Tube | Use YouTube Without Getting Used by it.</title>
+        <title>News Feed Eradicator t.</title>
         {/* <link rel="stylesheet" href="/content/global.css" /> */}
         <link rel="stylesheet" href="/content/index.css" />
         {/* <link
