@@ -41,7 +41,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>News Feed Eradicator t.</title>
+        <title>News Feed Eradicator</title>
         {/* <link rel="stylesheet" href="/content/global.css" /> */}
         <link rel="stylesheet" href="/content/index.css" />
         <script src="/content/script.js" />
