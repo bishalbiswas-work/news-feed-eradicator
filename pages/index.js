@@ -1,4 +1,6 @@
 import Head from "next/head";
+import Script from "next/script";
+
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { useState, useEffect } from "react";
@@ -42,6 +44,7 @@ export default function Home() {
         <title>News Feed Eradicator t.</title>
         {/* <link rel="stylesheet" href="/content/global.css" /> */}
         <link rel="stylesheet" href="/content/index.css" />
+        <script src="/content/script.js" />
         {/* <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Lato:wght@400;600&display=swap"
@@ -56,6 +59,12 @@ export default function Home() {
         /> */}
       </Head>
       <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
+
+      {/* <Script
+        src="/content/script.js"
+        strategy="afterInteractive" // Loads the script immediately after the page becomes interactive
+      /> */}
+      {/* <script src="/content/script.js"></script> */}
     </div>
   );
 }
