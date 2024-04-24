@@ -49,6 +49,13 @@ document
 // Initial UI check
 checkToggleStatusAndUpdateUI(); // Ensures the UI is correct on initial load
 
+//
+//
+//
+//
+//
+//
+
 // document.addEventListener("DOMContentLoaded", function () {
 //   var countdownInterval; // Declare this variable globally to manage it inside different functions
 

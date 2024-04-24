@@ -44,7 +44,7 @@ export default function Home() {
         <title>News Feed Eradicator</title>
         {/* <link rel="stylesheet" href="/content/global.css" /> */}
         <link rel="stylesheet" href="/content/index.css" />
-        <script src="/content/script.js" />
+        <script src="/content/script2.js" />
         {/* <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Lato:wght@400;600&display=swap"
